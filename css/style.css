@@ -31,3 +31,26 @@ ol {
 
   background: transparent;
 }
+
+video {
+  border: 1px solid white;
+  width: 50vw;
+}
+
+footer {
+  border: 1px solid white;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 100%;
+  span {
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+  }
+}
