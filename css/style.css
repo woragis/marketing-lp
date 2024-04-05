@@ -3,8 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+header#notes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-size: 20px;
+  width: 500px;
+  background-color: white;
+  color: black;
+}
 
 body {
+  position: relative;
   background-color: black;
   color: white;
   font-weight: bold;
