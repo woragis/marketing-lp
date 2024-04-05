@@ -9,13 +9,6 @@ body {
   color: white;
   font-weight: bold;
 }
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 ol {
   padding: 20px;
 }
@@ -32,9 +25,65 @@ ol {
   background: transparent;
 }
 
-video {
+section.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 0;
+  margin: auto;
+}
+
+.main-video {
   border: 1px solid white;
   width: 50vw;
+}
+
+section.sobre {
+  background-color: orange;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+article.sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h2.sobre {
+  font-size: 5em;
+}
+
+span.destaque {
+  color: red;
+  font-size: 60px;
+  background-color: black;
+}
+
+p.sobre {
+  color: black;
+  font-size: 2em;
+  padding: 0 20px;
+  max-width: 50%;
+}
+
+figure.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  img {
+    border-radius: 20px;
+  }
 }
 
 footer {
@@ -48,6 +97,7 @@ footer {
   color: white;
   height: 150px;
   width: 100%;
+
   span {
     font-size: 1.6em;
     text-align: center;
